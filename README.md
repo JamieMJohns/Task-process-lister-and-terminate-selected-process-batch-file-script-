@@ -3,7 +3,9 @@ This .bat file (including user interface) simulates a light weight task manager,
     
 To view the .bat file code; open the file in notepad (or alternatively rename .bat extension to .txt).
   
- And as with all batch (.bat) scripts; the program is run by simply opening the .bat file [i.e - .bat file is automatically executed in cmd and run as if it were a standalone program]  
+[Note: Have tested on windows 7 and windows 10, on windows 7; program runs with no problem but is problematic on windows 10 (it seems) as inputting correct account password results in program deciding that the password was incorrect.. this will be research later on the .bat file updated at later time if a fix is found for windows 10 problem.]  
+  
+And as with all batch (.bat) scripts; the program is run by simply opening the .bat file [i.e - .bat file is automatically executed in cmd and run as if it were a standalone program]  
    
 Files in this respository;  
 lightweight_task_manager.bat - the main (.bat) file of interest [includes added comments for understanding each line of the script]
