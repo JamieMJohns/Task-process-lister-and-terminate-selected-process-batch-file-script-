@@ -41,7 +41,7 @@ set /p tsk="Enter task to terminate(i.e- word.exe): "
 REM above takes user response and stores as variable "tsk"
 echo:
 echo Result $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-taskkill /im %tsk%
+taskkill /im %tsk% /F
 REM above kills task of image name (/nm) specified by user ("tsk")
 REM if image name tsk exists: this tasked is terminated
 REM else, nothing happens and error message is flashed
